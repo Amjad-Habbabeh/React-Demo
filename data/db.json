@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "React Demo",
+      "body": "React is a great Library and easy to work with",
+      "author": "Amjad",
+      "id": 1
+    },
+    {
+      "title": "2",
+      "body": "React is a great Library and easy to work with",
+      "author": "Markus",
+      "id": 2
+    },
+    {
+      "title": "Demo",
+      "body": "Demo is almost ready ",
+      "author": "Amjad",
+      "id": 3
+    }
+  ]
+}
