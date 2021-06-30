@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Blog } from './interfaces';
 
 const useFetch = (url:string) => {
   const [data, setData] = useState<any>([]);
@@ -9,10 +8,9 @@ const useFetch = (url:string) => {
   useEffect(() => {
     const abortCont = new AbortController();
 
-    setTimeout(() => {
       fetch(url, { signal: abortCont.signal })
       .then(res => {
-        if (!res.ok) { // error coming back from server
+        if (!res.ok) { 
           throw Error('could not fetch the data for that resource');
         } 
         return res.json();
@@ -31,7 +29,6 @@ const useFetch = (url:string) => {
           setError(err.message);
         }
       })
-    }, 1000);
 
     // abort the fetch
     return () => abortCont.abort();

@@ -5,12 +5,19 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  outline: none;
+}
+.App {
+  /* text-align: center; */
+  max-width: 90vw;
+  margin: auto auto;
 }
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  /* background-color: #54E0A4; */
+  /* max-width: 600px; */
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -29,7 +36,7 @@
   color: #f1356d;
 }
 .content {
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 40px auto;
   padding: 20px;
 }
@@ -60,6 +67,11 @@
 }
 .blog-details div {
   margin: 20px 0;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.textArea{
+  min-height:30vh ;
 }
 .blog-details button {
   background: #f1356d;

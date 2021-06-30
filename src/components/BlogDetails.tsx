@@ -1,6 +1,5 @@
 import { useHistory, useParams } from "react-router-dom";
-import { Blog } from "./interfaces";
-import useFetch from "./useFetch";
+import useFetch from "./Hooks/useFetch";
 
 const BlogDetails = () => {
   const { id } = useParams<any>();

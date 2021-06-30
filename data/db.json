@@ -1,22 +1,40 @@
 {
   "blogs": [
     {
-      "title": "React Demo",
-      "body": "React is a great Library and easy to work with",
+      "title": "What IS React?",
+      "body": "React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.\n \nReact allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in the application. This corresponds to the view in the MVC template. It can be used with a combination of other JavaScript libraries or frameworks, such as Angular JS in MVC.",
       "author": "Amjad",
-      "id": 1
+      "id": 6
     },
     {
-      "title": "2",
-      "body": "React is a great Library and easy to work with",
-      "author": "Markus",
-      "id": 2
+      "title": "JSX",
+      "body": "In React, instead of using regular JavaScript for templating, it uses JSX. JSX is a simple JavaScript that allows HTML quoting and uses these HTML tag syntax to render subcomponents. HTML syntax is processed into JavaScript calls of React Framework. We can also write in pure old JavaScript.",
+      "author": "Amjad",
+      "id": 7
     },
     {
-      "title": "Demo",
-      "body": "Demo is almost ready ",
+      "title": "Key Features of React",
+      "body": "-Allows you to use 3rd party libraries\n-Time-Saving\n-Simplicity and Composable\n-Fully supported by Facebook.\n-Better user experience and very fast performance.\n-Faster Development\n-Code Stability with One-directional data binding\n-React Components with thier own state.\n-Interactive UIs with Virtual DOM.\n_Very popular in the industry",
       "author": "Amjad",
-      "id": 3
+      "id": 4
+    },
+    {
+      "title": "Advantages of React",
+      "body": "Here, are pros/benefits of using React:\n\n -Easy to learn because of its simple Design \n\n-The HTML-like syntax for which allows templating,.\n\n-Developers can spend more time writing modern JavaScript, and less time worrying about the framework-specific code.\n\n-Enhance support for server-side rendering, making it a robust framework for content-focused applications.\n\n-Migrating between versions is in React.\n\n-Facebook offers \"codemod\" feature to automate much of the process.\n\n-Skills learned in React can be applied to Native development. \n\n-When you combine with ES6/7, ReactJS is perfect for managing heavy loads with relative ease.",
+      "author": "Amjad",
+      "id": 8
+    },
+    {
+      "title": "React Hooks",
+      "body": "Hooks are the new feature introduced in the React 16.8 version. It allows you to use state and other React features without writing a class. Hooks are the functions which \"hook into\" React state and lifecycle features from function components. It does not work inside classes.\n",
+      "author": "Amjad",
+      "id": 9
+    },
+    {
+      "title": "React Props",
+      "body": "Props stand for \"Properties.\" They are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It gives a way to pass data from one component to other components. It is similar to function arguments. Props are passed to the component in the same way as arguments passed in a function.",
+      "author": "Amjad",
+      "id": 10
     }
   ]
 }

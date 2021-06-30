@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import { Blog } from './interfaces';
+ import { Link } from 'react-router-dom';
+import { Blog } from '../interfaces';
 type Props ={
   blogs:Blog[]
 }

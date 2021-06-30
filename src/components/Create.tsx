@@ -1,6 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { useHistory } from "react-router-dom";
 
+
 const Create = () => {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
@@ -16,7 +17,6 @@ const Create = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog)
     }).then(() => {
-      // history.go(-1);
       history.push('/');
     })
   }
@@ -38,6 +38,7 @@ const Create = () => {
           value={body}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
+         
         <label>Blog author:</label>
         <select
           value={author}
