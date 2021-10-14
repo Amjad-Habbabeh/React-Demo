@@ -7,7 +7,7 @@ const BlogList:React.FC<Props> = (props:Props) => {
   const {blogs}=props
   return (
     <div className="blog-list">
-      {blogs.map((blog:Blog) => (
+      {props.blogs.map((blog:Blog) => (
         <div className="blog-preview" key={blog.id} >
           <Link to={`/blogs/${blog.id}`}>
             <h2>{ blog.title }</h2>

@@ -1,6 +1,7 @@
-import { ChangeEvent, FormEvent, useState } from "react";
+import {  FormEvent, useState } from "react";
 import { useHistory } from "react-router-dom";
-
+// import {Editor, EditorState} from 'draft-js';
+import 'draft-js/dist/Draft.css';
 
 const Create = () => {
   const [title, setTitle] = useState('');
@@ -38,7 +39,6 @@ const Create = () => {
           value={body}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
-         
         <label>Blog author:</label>
         <select
           value={author}
